@@ -60,7 +60,7 @@ This approach applies TF-IDF vectorization and cosine similarity to create a cha
 
 ## License and Academic Integrity Statement
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License.
 
 ### Academic Integrity Statement
 
