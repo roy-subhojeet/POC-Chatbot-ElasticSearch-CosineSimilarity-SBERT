@@ -29,7 +29,7 @@ This approach uses Elasticsearch to index and search a corpus of questions. The 
 
 ### Description
 
-This uses Sentence Transformers to create embeddings for questions and answers. The script reads data from a JSON file, pre-computes the embeddings for all the passages, and then interactively responds to user queries by finding the most similar passage in memory.
+This uses Sentence Transformers and sentence embeddings to create embeddings for questions and answers. The script reads data from a JSON file, pre-computes the embeddings for all the passages, and then interactively responds to user queries by finding the most similar passage in memory.
 
 ### Usage
 
