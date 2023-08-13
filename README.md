@@ -6,16 +6,12 @@ This repository contains three distinct approaches for indexing and semantically
 
 ### Dependencies
 
-- `sentence_transformers`
 - `elasticsearch`
 - `json`
-- `time`
-- `tqdm.autonotebook`
-- `traceback`
 
 ### Description
 
-This approach uses Elasticsearch and sentence embeddings to index and search a corpus of questions. The code snippet reads questions and answers from a JSON file, creates embeddings for each question using Sentence Transformers, and then indexes these in Elasticsearch. Users can interactively search the indexed questions.
+This approach uses Elasticsearch to index and search a corpus of questions. The code snippet reads questions and answers from a JSON file, creates embeddings for each question using Sentence Transformers, and then indexes these in Elasticsearch. Users can interactively search the indexed questions.
 
 ### Usage
 
@@ -33,7 +29,7 @@ This approach uses Elasticsearch and sentence embeddings to index and search a c
 
 ### Description
 
-The YottaByte chatbot uses Sentence Transformers to create embeddings for questions and answers. The script reads data from a JSON file, pre-computes the embeddings for all the passages, and then interactively responds to user queries by finding the most similar passage in memory.
+This uses Sentence Transformers to create embeddings for questions and answers. The script reads data from a JSON file, pre-computes the embeddings for all the passages, and then interactively responds to user queries by finding the most similar passage in memory.
 
 ### Usage
 
@@ -47,7 +43,6 @@ The YottaByte chatbot uses Sentence Transformers to create embeddings for questi
 - `json`
 - `nltk`
 - `sklearn`
-- `string`
 
 ### Description
 
